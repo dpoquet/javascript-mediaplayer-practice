@@ -64,3 +64,20 @@ body {
 
     .button.left { margin-right: 20px; }
 
+
+.comments {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto 0 auto;
+}
+
+    .comments__comment h2 {
+        line-height: 1;
+        font-size: 18px; 
+    }
+
+    .comments__comment p {
+        line-height: 25px;
+        font-size: 15px; 
+    }
+

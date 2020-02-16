@@ -4,7 +4,7 @@ import AutoPause from './plugins/AutoPause.js';
 
 
 const video = document.getElementById("mediaPlayer");
-const mediaPlayer = new MediaPlayer({ el: video, plugins: [new AutoPlay()] });
+const mediaPlayer = new MediaPlayer({ el: video, plugins: [new AutoPlay(), new AutoPause()] });
 
 const playButton = document.getElementById("playButton");
 const muteButton = document.getElementById("muteButton");
